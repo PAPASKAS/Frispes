@@ -6,3 +6,199 @@
 span{
     display:inline-block;
 }
+:root{
+    --gray1:#9A9A9A;
+    --gray3:#DFDFDF;
+    --gray4:#F8F8F8;
+    --white:#FFFFFF;
+    --black:#222831;
+    --primary:#10375C;
+    --secondary:#FF5722;
+    --primary120:#0D2C4A;
+    --secondary120:#DD2C00;
+}
+body{/*img outside the container*/
+    max-width:1440px;
+    margin: 0px auto !important;
+}
+
+
+
+/*header*/
+header ul{
+    margin:0 auto;
+}
+header .account a{
+    padding:12px 24px; 
+    transition: 500ms;    
+}
+header .account a:last-of-type{
+    background: var(--secondary);
+}
+header .account a:hover{
+    box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
+}
+
+
+
+
+/*intro*/
+.background_intro{
+    position: relative;
+    padding-bottom:65px;
+}
+.background_intro .background{
+    z-index:-1;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.intro .slider-button{
+    position: relative;
+    display:flex;
+    margin-top:13px;
+    gap:4px;
+    justify-content: center;
+    max-width:960px;
+    width:100%;
+    float:right;
+}
+.intro .slider-button span{
+    width: 16px;
+    height: 4px;
+    background: var(--white);
+    opacity: 0.5;
+    animation-duration: 700ms;
+    animation-fill-mode: forwards;
+}
+@keyframes button_intro_slider_anima_plus {
+    from{}
+    to{width:40px;
+        background:var(--secondary);
+        opacity: 1;}
+}
+@keyframes button_intro_slider_anima_minus {
+    from{width:40px;
+        background:var(--secondary);
+        opacity: 1;}
+    to{width:16px;
+        background:var(--white);
+        opacity: 0.5;}
+}
+.top-intro > div:first-of-type{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+.top-intro > div:first-of-type span{
+    background: #222831;
+    margin-top:4px;
+    width: 73px;
+    height: 2px;
+}
+.top-intro h1{/*left side*/
+    max-width:667px;
+}
+.top-intro > div:last-of-type span:last-of-type{/*right side*/
+    max-width:382px;
+}
+
+
+.intro form{
+    margin-top:65px;
+    padding:42px 7px 0 40px;
+    max-width: 445px;
+    height: 459px;
+    background: var(--primary);
+}
+.intro form *{
+    margin:0;
+    padding:0;
+}
+.intro form > div{/* общие границы блоков */
+    display:grid;
+    gap:17px;
+    height: 238px;
+}
+.intro form > div > div{
+    width: calc(100% - 40px);
+    height: 68px;
+    background: var(--primary120);
+}
+.intro form p{
+    margin-bottom:29px;
+    padding:8px 0 0 16px;
+}
+.intro form img{
+    float:right;
+    transform: translate(-22px, -30px);
+}
+.intro form select{
+    cursor: pointer;
+    width: 100%;
+    height: 68px;
+    padding:25px 0 0 16px;
+    appearance: none;
+    transform:translateY(-70px);
+    background:none;
+    border:none;
+    outline:none;
+}
+.intro form input{
+    cursor: pointer;
+    width: 100%;
+    height: 68px;
+    padding:25px 16px 0 16px;
+    appearance: none;
+    transform:translateY(-63px);
+    background:none;
+    border:none;
+    outline:none;
+}
+.intro button{
+    transition:500ms;
+    margin-top:22px;
+    width: calc(100% - 40px);
+    height: 53px;
+    background: var(--secondary);
+    border:none;
+    outline:none;
+}
+.intro button:hover{
+    box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
+}
+
+
+
+
+
+/*our spaces*/
+.our_spaces{
+    margin:112px 0;/*outer padding*/
+    border:1px solid red;
+}
+.our_spaces .heading{
+    margin-bottom:50px;
+}
+.our_spaces .slider a{
+    position: absolute;
+    transform:translateY(-72px);
+    background: var(--secondary);
+    width: 72px;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+}
+.our_spaces .slider span > p:first-of-type{
+    margin:25px 0 35px 0;
+}
+.our_spaces .nav-slider{
+    text-align: center;
+}
+.our_spaces .nav-slider p:first-of-type span{
+    width: 40px;
+    height: 4px;
+    background: var(--gray3);
+}

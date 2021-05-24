@@ -9,18 +9,161 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" href="../../Source/Img/logo.svg">
-
     <link rel="stylesheet" href="Fonts.css">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="Media.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <title>Frispes</title>
 </head>
 <body>
     
+    <header class="my-4 my-lg-5 container navbar navbar-expand-lg d-flex justify-content-between align-items-center">
+        <a href="#" class="logo navbar-brand">Frispes.</a>
+        <nav class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav gap-lg-4">
+                <li class="nav-item d-lg-none"><a href="#" class="nav-link">Log In</a></li>
+                <li class="nav-item d-lg-none"><a href="#" class="nav-link">Sign Up</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Workspace</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Events</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Reviews</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+        <span class="account d-none d-lg-inline-block">
+            <a href="#">Log In</a>
+            <a href="#">Sign Up</a>
+        </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon d-flex align-items-center justify-content-center"><img src="../../Source/Img/menu.svg" alt="hamburger"></span>
+        </button>
+    </header>
+
+    <div class="background_intro">
+        <div class="background">
+
+        </div>
+        <div class="intro">
+            <div class="top-intro container">
+                <div>
+                    Introducing
+                    <span></span><!--черта-->
+                </div>
+                <div class="d-flex justify-content-between flex-wrap">
+                    <h1><word>Revolutionary</word> co-working space to realize your innovation</h1>
+                    <span>In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets</span>
+                </div>
+            </div>
+            <div class="container">
+                <form action="">
+                    <p>Find your space now</p>
+                    <div>
+                        <div>
+                            <p>Location</p>
+                            <img src="../../Source/Img/select.svg" alt="select">
+                            <select name="" id="">
+                                <option value="" id=address selected></option>
+                                <option value="">Russia</option>
+                                <option value="">USA</option>
+                                <option value="">Afgenistan</option>
+                                <option value="">Kazakstan</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>Type</p>
+                            <img src="../../Source/Img/select.svg" alt="select">
+                            <select name="" id="">
+                                <option value="" selected>Private Office</option>
+                                <option value="">Open Office</option>
+                                <option value="">Closed Office</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>Date</p>
+                            <input type="date" required>
+                        </div>
+                    </div>
+                    <button>FIND MY SPACE</button>
+                </form>
+            </div>
+            <div class=slider-button>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container our_spaces">
+        <div class="heading d-flex justify-content-between align-items-center">
+            <h2>
+                Our Spaces
+            </h2>
+            <span>
+                Our space is designed to give you a different experience when working with your team or personally
+            </span>
+            <span>
+                <img src="../../Source/Img/slider our spaces.svg" alt="button slider">
+                <img src="../../Source/Img/slider our spaces.svg" alt="button slider">
+            </span>
+        </div>
+        <div class="slider">
+            <div class="d-flex justify-content-between">
+                <span>
+                    <div>
+                        <img src="../../Source/Img/our spaces.jpg" alt="">
+                        <a href="#" class="d-flex ">
+                            <p></p><!--on mouse over-->
+                            <img src="../../Source/Img/arrow.svg" alt="">
+                        </a>
+                    </div>
+                    <p class="text-center">Working with team</p>
+                    <p class="text-center"></p><!--On mouse over-->
+                </span>
+                <span>
+                    <div>
+                        <img src="../../Source/Img/our spaces 1.jpg" alt="">
+                        <a href="#" class="d-flex ">
+                            <p></p><!--on mouse over-->
+                            <img src="../../Source/Img/arrow.svg" alt="">
+                        </a>
+                    </div>
+                    <p class="text-center">Working with team</p>
+                    <p class="text-center"></p><!--On mouse over-->
+                </span>
+                <span>
+                    <div>
+                        <img src="../../Source/Img/our spaces.jpg" alt="">
+                        <a href="#" class="d-flex ">
+                            <p></p><!--on mouse over-->
+                            <img src="../../Source/Img/arrow.svg" alt="">
+                        </a>
+                    </div>
+                    <p class="text-center">Working with team</p>
+                    <p class="text-center"></p><!--On mouse over-->
+                </span>
+            </div>
+        </div>
+        <div class="nav-slider d-grid justify-content-center">
+            <P>
+                <span></span><span></span><span></span><span></span>
+            </P>
+            <p>
+                <span>01</span>
+                <span>/</span>
+                <span>04</span>
+            </p>
+        </div>
+    </div>
 
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="Script.js"></script>
 </body>
 </html>
