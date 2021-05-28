@@ -179,6 +179,17 @@ header .account a:last-of-type{
     line-height: 28px;
     color: var(--gray1);
 }
+.our_spaces .slider a{
+    text-decoration: none;
+}
+.our_spaces .slide a p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--white);
+}
 .our_spaces .nav-slider p span:first-of-type{
     font-family: Lato;
     font-style: normal;
@@ -196,6 +207,308 @@ header .account a:last-of-type{
     color: var(--primary120);    
 }
 .our_spaces .nav-slider p span:last-of-type{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--gray1);
+}
+
+
+
+
+
+
+
+
+
+/*why frispes*/
+.why-frispes .left-side h3{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 41px;
+    color: var(--primary);
+}
+.why-frispes .left-side p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--gray1);    
+}
+.why-frispes .right-side span{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--white);
+}
+.why-frispes .right-side h2{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    color: var(--white);    
+}
+.why-frispes .right-side p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--white);    
+}
+
+
+
+
+
+
+
+/*our facilities*/
+.our-facilities .top-side span:first-of-type{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black);
+}
+.our-facilities .top-side h2{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    color: var(--primary);
+}
+.our-facilities .indicator-slider span:first-of-type{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--primary);
+}
+.our-facilities .indicator-slider span:nth-of-type(2){
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--primary);    
+}
+.our-facilities .indicator-slider span:last-of-type{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--gray1);
+}
+.our-facilities .nav-slider div{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--black);
+}
+
+
+
+
+
+/*galley*/
+.gallery span div span:first-of-type{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black);
+}
+.gallery h2{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    color: var(--primary);    
+}
+
+
+
+
+
+
+/*who uses*/
+.who-uses h2{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    color: var(--primary120);    
+}
+.who-uses p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--gray1);
+}
+
+
+
+
+
+
+
+
+/*reviews*/
+.reviews .heading span:first-of-type{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black);    
+}
+.reviews .heading h2{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    color: var(--primary);    
+}
+.reviews .slide > p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--white);
+}
+.reviews .slide span p:first-of-type{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;    
+    color: var(--white);
+}
+.reviews .slide span p:last-of-type{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--white);
+}
+
+
+
+
+/*help center*/
+.help-center .heading{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    color: var(--primary);
+}
+.help-center > p a{
+    text-decoration: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--secondary);
+}
+.help-center .item h4{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 33px;
+    color: #000000;    
+}
+
+
+
+
+
+/*news*/
+.news-top-side h2{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    color: var(--primary);    
+}
+.news-top-side span a{
+    text-decoration: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--secondary);    
+}
+.news-bottom-side > div > span h6{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--black);    
+}
+.news-bottom-side > div > span p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--gray1);    
+}
+.news-bottom-side .main_news h3{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 41px;   
+    color: var(--black);    
+}
+.news-bottom-side .main_news .description{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--gray1);    
+}
+.news-bottom-side .main_news .name{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--primary);
+}
+.news-bottom-side .main_news .job{
     font-family: Lato;
     font-style: normal;
     font-weight: normal;

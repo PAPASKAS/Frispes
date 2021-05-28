@@ -18,3 +18,31 @@
         }
     }
 }
+
+
+
+
+/*our spaces*/
+@media (max-width:991px) {
+    .our_spaces .nav-slider p:first-of-type span:nth-last-child(2){
+        display:inline-block;
+    }
+    @media (max-width:700px) {
+        .our_spaces .nav-slider p:first-of-type span:last-child{
+            display:inline-block;
+        }
+    }   
+}
+
+
+
+/*reviews*/
+@media (max-width:425px) {
+    .reviews .slide{
+        padding:35px 0px 40px 10px;   
+    }
+    .reviews .slide > p{
+        max-width:365px;
+        padding-right:85px;
+    }
+}
