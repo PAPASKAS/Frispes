@@ -46,3 +46,32 @@
         padding-right:85px;
     }
 }
+
+
+/*news*/
+@media (max-width:1199px) {
+    .news-bottom-side .main_news{
+        max-width:350px;
+    }
+    @media (max-width:575px) {
+        .news-bottom-side > div > span{
+            max-width:320px;
+        }   
+    }
+}
+
+
+
+
+
+/*became member*/
+@media (max-width:991px) {
+    .became-member a{
+        padding:12.5px 96px;
+    }
+    @media (max-width:575px) {
+        .became-member a{
+            padding:12.5px 80px;
+        }
+    }
+}

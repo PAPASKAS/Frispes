@@ -516,3 +516,90 @@ header .account a:last-of-type{
     line-height: 26px;
     color: var(--gray1);
 }
+
+
+
+
+
+
+/*became member*/
+.became-member p:first-of-type{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--gray4);    
+}
+.became-member h2{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    color: var(--white);
+}
+.became-member p:last-of-type{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--gray3);
+}
+.became-member a{
+    text-decoration: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--white);    
+}
+
+
+
+
+
+
+
+/*footer*/
+footer > span:first-of-type h1{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 67px;
+    color: var(--white);    
+}
+footer > span:first-of-type p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--gray4);
+    opacity: 0.85;
+}
+footer span:not(:first-of-type) p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--white);
+    opacity: 0.5;
+}
+footer li a{
+    text-decoration: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--white);    
+}
+footer li a:hover{
+    border:1px solid red;
+    color: var(--white) !important;
+}

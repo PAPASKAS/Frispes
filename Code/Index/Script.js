@@ -12,8 +12,6 @@ $.get("https://ipinfo.io", function (response) {
 }, "jsonp");
 
 
-
-
 //intro
 slider_intro_img = ['url("../../Source/Img/intro.jpg")', 'url("../../Source/Img/intro1.jpg")', 'url("../../Source/Img/intro2.jpg")', 'url("../../Source/Img/intro3.jpg")']
 document.querySelector(".background_intro .background").style.backgroundImage = slider_intro_img[0]
